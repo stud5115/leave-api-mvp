@@ -90,6 +90,14 @@ def main_menu():
             else:
                 print("Employee not found.")
 
+        if balance < 0:
+    print("Leave balance cannot be negative.")
+    continue
+
+if days <= 0:
+    print("Number of leave days must be positive.")
+    continue
+
         elif choice == "4":
             print("Exiting system.")
             break
